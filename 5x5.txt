@@ -1,0 +1,12 @@
+N 5  # number of rows
+M 5  # number of columns
+P 0.8 0.1 0.1  # transition probabilities
+R -1  # default reward for non-terminal states
+G 0.99  # discount factor
+T 4 4 100  # terminal state with reward 100
+B 2 2 -20  # terminal state with reward -20
+B 1 4 -20
+F 4 2  # forbidden state
+F 1 2
+S 0 0  # start state
+E 0.25
